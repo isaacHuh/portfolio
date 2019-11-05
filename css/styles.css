@@ -1,0 +1,77 @@
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Libre Franklin', 'Libre Franklin';
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover 
+{
+    transition: 0.6s;
+    color: grey; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.gridImg{
+    height:30%;
+    width:30%;
+}
+
+#gridVideos{
+    margin: 0 auto;
+}
+
+.youtubeVid{
+    width: 560px;
+    height: 315px;
+}
+
+.dotted{
+    border: 1.3px dashed white;
+}
+
+
+.title{
+    transition: 1s;
+}
+.title:hover{
+    transform: rotate(-5deg);
+    color:yellow;
+    text-shadow: 3px 3px red;
+}
+
+
+.outer{
+    left:20%;
+    position:relative;
+    width:60%;
+    height:60%;
+    opacity: 1;
+    transition: .5s ease;
+}
+.outer:hover{
+    opacity: 0.6;
+}
+
+.inner{
+    position: absolute;
+    left: 85%;
+    width: 15%;
+    height: 99%;
+    opacity: 0.85;
+    background-color:black;
+}
+
+.innerText{
+    text-align: center;
+    vertical-align: middle;
+    color: yellow;
+    text-shadow: 0px 4px red;
+}
