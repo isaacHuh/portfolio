@@ -3,18 +3,21 @@ body{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'Libre Franklin', sans-serif;
+    /*font-family: 'Libre Franklin', sans-serif;*/
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .link {
     font-family: 'Carrois Gothic SC', sans-serif;
     color: white;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .link:hover 
 {
-     color: grey; 
+     font-size: 20px;
+     text-shadow: -2px 2px blue;
      text-decoration:none; 
      cursor:pointer;  
 }
@@ -22,10 +25,18 @@ body{
 .gridImg{
     height:30%;
     width:30%;
+    transition: .3s;
+}
+
+.gridImg:hover{
+    box-shadow: -5px 5px blue;
+    margin-bottom: 1%;
+    height:35%;
+    width:35%;
+    opacity: 0.65;
 }
 
 #gridVideos{
-    
     margin: auto;
 }
 
@@ -40,11 +51,24 @@ body{
 
 
 .title{
-
+    text-shadow: 4px 4px blue;
+    box-shadow: 0px 4px blue;
 }
 
-.subTitle{
+.subTitleLink{
     text-align: left;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.subTitleLink:hover 
+{
+     font-size: 20px;
+     text-shadow: -2px 2px blue;
+     text-decoration:none; 
+     cursor:pointer;  
 }
 
 .outerRight{
@@ -57,8 +81,8 @@ body{
 }
 .outerRight:hover{
     left: 15%;
-    margin-top:2%;
-    box-shadow: -30px -20px 0px blue;
+    margin-bottom:2%;
+    box-shadow: -30px 20px 0px blue;
     opacity: 0.65;
 }
 
@@ -72,8 +96,8 @@ body{
 }
 .outerLeft:hover{
     left: 9%;
-    margin-top:2%;
-    box-shadow: 30px -20px 0px blue;
+    margin-bottom:2%;
+    box-shadow: 30px 20px 0px blue;
     opacity: 0.65;
 }
 
@@ -107,7 +131,20 @@ body{
 }
 
 #projectIDOImagesSide{
-    width: 16.45%;
-    height: 16.45%;
-    margin-left: 0;
+    text-align: left;
+    width: 47%;
+    height: 47%;
+    margin-left: 0%;
+}
+
+.idoImg{
+    transition: 0.3s;
+}
+.idoImg:hover{
+    width:37%;
+    height:37%;
+    margin-left:1%;
+    bottom:5%;
+    box-shadow: -5px 5px blue;
+    opacity: 0.65;
 }
