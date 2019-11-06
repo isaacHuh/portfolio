@@ -3,20 +3,20 @@ body{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'Libre Franklin', 'Libre Franklin';
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .link {
+    font-family: 'Carrois Gothic SC', sans-serif;
     color: white;
     text-decoration: none;
 }
 
 .link:hover 
 {
-    transition: 0.6s;
-    color: grey; 
-    text-decoration:none; 
-    cursor:pointer;  
+     color: grey; 
+     text-decoration:none; 
+     cursor:pointer;  
 }
 
 .gridImg{
@@ -25,12 +25,13 @@ body{
 }
 
 #gridVideos{
-    margin: 0 auto;
+    
+    margin: auto;
 }
 
 .youtubeVid{
     width: 560px;
-    height: 315px;
+    height: 312px;
 }
 
 .dotted{
@@ -39,39 +40,74 @@ body{
 
 
 .title{
-    transition: 1s;
-}
-.title:hover{
-    transform: rotate(-5deg);
-    color:yellow;
-    text-shadow: 3px 3px red;
+
 }
 
+.subTitle{
+    text-align: left;
+}
 
-.outer{
-    left:20%;
+.outerRight{
+    left:12%;
     position:relative;
-    width:60%;
-    height:60%;
+    width:75%;
+    height:75%;
     opacity: 1;
     transition: .5s ease;
 }
-.outer:hover{
-    opacity: 0.6;
+.outerRight:hover{
+    left: 15%;
+    margin-top:2%;
+    box-shadow: -30px -20px 0px blue;
+    opacity: 0.65;
 }
 
-.inner{
+.outerLeft{
+    left:12%;
+    position:relative;
+    width:75%;
+    height:75%;
+    opacity: 1;
+    transition: .5s ease;
+}
+.outerLeft:hover{
+    left: 9%;
+    margin-top:2%;
+    box-shadow: 30px -20px 0px blue;
+    opacity: 0.65;
+}
+
+.innerRight{
     position: absolute;
     left: 85%;
     width: 15%;
-    height: 99%;
-    opacity: 0.85;
+    height: 100%;
+    background-color:black;
+}
+
+.innerLeft{
+    position: absolute;
+    left: 0%;
+    width: 15%;
+    height: 100%;
     background-color:black;
 }
 
 .innerText{
+    font-family: 'Carrois Gothic SC', sans-serif;
     text-align: center;
     vertical-align: middle;
-    color: yellow;
-    text-shadow: 0px 4px red;
+    color: white;
+    /*
+    text-shadow: 0px 4px red;*/
+}
+
+#projectIDOImages{
+    display: flex;
+}
+
+#projectIDOImagesSide{
+    width: 16.45%;
+    height: 16.45%;
+    margin-left: 0;
 }
