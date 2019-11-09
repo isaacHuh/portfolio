@@ -128,14 +128,13 @@ body{
 }
 
 #projectIDO p img{
-    left:0%;
-    float:left;
+    float:left;    
 }
 
 #projectIDO p{
-    font-size: 20px;
+    margin-left:0%;
+    float:left;
 }
-
 /*
 #projectIDOImages{
     display:inline-flex;
@@ -163,10 +162,17 @@ body{
 }
 
 
+#pythonText{
+    font-size:20px;
+    margin-left:5%;
+    text-shadow: 1px 1px blue;
+    text-align: center;
+}
+
 #aboutMeText{
     font-size:20px;
     margin-left:5%;
-    /*text-shadow: 1px 1px blue;*/
+    text-shadow: 1px 1px blue;
     text-align: center;
     width: 90%;
 }
