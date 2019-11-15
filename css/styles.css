@@ -3,12 +3,18 @@ body{
     background-color: black;
     color: white;
     text-align: center;
-    /*font-family: 'Libre Franklin', sans-serif;*/
-    font-family: 'Carrois Gothic SC', sans-serif;
+    /*font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Carrois Gothic SC', sans-serif;*/
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+nav{
+    text-align: center; 
 }
 
 .link {
-    font-family: 'Carrois Gothic SC', sans-serif;
+
     color: white;
     text-decoration: none;
     transition: 0.5s;
@@ -51,16 +57,14 @@ body{
 
 
 .title{
-    text-shadow: 4px 4px blue;
-    box-shadow: 0px 4px blue;
+    box-shadow: 0px 4px white;
 }
 
 .subTitleLink{
     text-align: left;
-    font-family: 'Carrois Gothic SC', sans-serif;
+
     color: white;
     text-decoration: none;
-    text-shadow: 2px 2px blue;
     transition: 0.5s;
 }
 
@@ -107,7 +111,7 @@ body{
     left: 85%;
     width: 15%;
     height: 100%;
-    background-color:black;
+    background-color: black;
 }
 
 .innerLeft{
@@ -119,12 +123,11 @@ body{
 }
 
 .innerText{
-    font-family: 'Carrois Gothic SC', sans-serif;
+
     text-align: center;
     vertical-align: middle;
     color: white;
-    /*
-    text-shadow: 0px 4px red;*/
+    /*text-shadow: 0px 4px red;*/
 }
 
 #projectIDO p img{
@@ -165,14 +168,14 @@ body{
 #pythonText{
     font-size:20px;
     margin-left:5%;
-    text-shadow: 1px 1px blue;
     text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 
 #aboutMeText{
     font-size:20px;
     margin-left:5%;
-    text-shadow: 1px 1px blue;
     text-align: center;
     width: 90%;
+    font-family: 'Nanum Gothic Coding', monospace;
 }
