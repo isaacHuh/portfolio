@@ -5,12 +5,12 @@ body{
     text-align: center;
     /*font-family: 'Libre Franklin', sans-serif;
     font-family: 'Carrois Gothic SC', sans-serif;*/
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
 nav{
-    text-align: center; 
+    text-align: center;
 }
 
 .link {
@@ -164,7 +164,6 @@ nav{
     font-size:20px;
     margin-left:5%;
     text-align: center;
-    font-family: 'Nanum Gothic Coding', monospace;
 }
 
 #aboutMeText{
@@ -172,5 +171,4 @@ nav{
     margin-left:5%;
     text-align: center;
     width: 90%;
-    font-family: 'Nanum Gothic Coding', monospace;
 }
